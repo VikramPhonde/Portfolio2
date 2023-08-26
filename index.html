@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio- Vikram Phonde</title>
+
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="main-container">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <nav class="nav-container">
+          <p class="logo"><a href="#home"></a></p>
+          <ul class="nav-menu">
+            <li class="nav-link"><a href="#home" class="link__hover">01.Home</a></li>
+            <li class="nav-link"><a href="#projects" class="link__hover">02.Projects</a></li>
+            <i class="fa-solid fa-circle-half-stroke dark-toggle"></i>
+          </ul>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </nav>
+      <section id="home" class="section-container">
+        <h1 class="homepage__name">Vikram Phonde</h1>
+        <h2 class="homepage__role">Frontend Developer</h2>
+        <p class="homepage__about">
+          I'm a frontend developer based in Mumbai, and I'm looking forward to
+          build my career in the corporate sector.
+        </p>
+        <a href="https://drive.google.com/file/d/1rR6B9k41Na4EQeny4daRA5FvnVZrK40j/view?usp=drive_link" target="_blank"><button class="homepage__resume">Check Resume</button></a>
+        <div>
+          <a href="https://www.linkedin.com/in/vikram-phonde-2704/" target="_blank">
+            <i class="fa fa-brands fa-linkedin fa-2x" title="Linkedin"></i>
+          </a>
+          <a href="https://github.com/VikramPhonde" target="_blank">
+            <i class="fa fa-brands fa-github fa-2x" title="Github"></i>
+          </a>
+          
+        </div>
+      </section>
+      
+      <section id="projects" class="section-container">
+        <h2 class="projects__heading">Projects</h2>
+        <div class="project">
+          <a href="https://vikramphonde.github.io/textutils/" target="_blank"><img class="project__image" src="./icons/textutils_img.png" alt="react ecommerce website"/></a>
+          <h3 class="project__title">Text Utils</h3>
+          <p class="project__desc">This is an app where user can perform certain operations on their given text such as Uppercase, Lowercase, Removing extra spaces, Coping Text,etc. This was my first react app wherein I used all the basic functionalities.</p>
+          <a href="https://vikramphonde.github.io/textutils/" target="_blank"><button class="project__live-demo">Live Demo</button></a>
+          <a href="https://github.com/VikramPhonde/textutils" target="_blank"><button class="project__view-github">View Github</button></a>
+        </div>
+        <div class="project">
+          <a href="https://vikramphonde.github.io/AnytimeMusic/" target="_blank"><img class="project__image project__image__discord" src="./icons/anytimemusic_img.png" alt="react discord clone"/></a>
+          <h3 class="project__title">AnytimeMusic</h3>
+          <p class="project__desc">This is a music player app that allows the user to play music. Also it allows user to pause, play, seek music to a certain time, play previous/next song, auto-play next song when a song ends,etc. </p>
+          <a href="https://vikramphonde.github.io/AnytimeMusic/" target="_blank"><button class="project__live-demo">Live Demo</button></a>
+          <a href="https://github.com/VikramPhonde/AnytimeMusic" target="_blank"><button class="project__view-github">View Github</button></a>
+        </div>
+        <div class="project">
+          <a href="https://vikramphonde.github.io/WhatMovieToWatch/" target="_blank"><img class="project__image" src="./icons/whatmovietowatch_img.png" alt="react quiz app"/></a>
+          <h3 class="project__title">WhatMovieToWatch</h3>
+          <p class="project__desc">This is an App whhich allows users to look at some of the most popular movies and TV Shows. It also provides short description, IMDB rating and an option to watch trailers</p>
+          <a href="https://vikramphonde.github.io/WhatMovieToWatch/" target="_blank"><button class="project__live-demo">Live Demo</button></a>
+          <a href="https://github.com/VikramPhonde/WhatMovieToWatch" target="_blank"><button class="project__view-github">View Github</button></a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="./index.js"></script>
+  </body>
+</html>
